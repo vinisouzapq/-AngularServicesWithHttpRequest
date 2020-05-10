@@ -1,7 +1,7 @@
 export interface Post{
-  userId: 1;
+  userId: number;
   id: number;
   title: String;
   body: String;
-  exibirComentario: false;
+  exibirComentario: boolean;
 }
